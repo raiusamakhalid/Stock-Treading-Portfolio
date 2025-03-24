@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Stock" ADD COLUMN     "price" DOUBLE PRECISION NOT NULL DEFAULT 100.0;
+
+-- AlterTable
+ALTER TABLE "Trade" ADD COLUMN     "currentPrice" DOUBLE PRECISION;
